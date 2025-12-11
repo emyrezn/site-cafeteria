@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fotos/icon.ico" type="image/x-icon">
+    <title>Sobre</title>
+
+    <style>
+        body {
+            background-color: rgb(72, 50, 50);
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+                body {
+            background-color: rgb(31, 28, 28);
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: rgba(117, 60, 34, 0.784);
+            padding: 10px 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            right: 5px;
+            top: 0;
+            width: 100%;
+            padding: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: poppins, sans-serif;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        nav a.botao-login {
+            background-color: rgb(195, 155, 136);
+            color: white;
+            padding: 4px 20px;
+            border: 2px solid rgba(255, 255, 255, 0);
+            border-radius: 30px;
+            text-align: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            height: auto;
+        }
+        nav a.botao-login:hover {
+            background-color: white;
+            color: sienna;
+            transition: 200ms;
+        }
+        .sobre {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            margin: 40px auto;
+            padding: 60px;
+            width: 80%;
+            border-radius: 10px;
+            margin-top: 100px;;
+        }
+        .texto {
+            flex: 1;
+            margin-right: 20px;
+            width: 50%;
+        }
+        img {
+            border-radius: 30px;
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+        <nav>
+        <ul>
+            <li> <a href="cafe.html"> Home </a> </li>
+            <li> <a href="sobre-nos.html"> Sobre nós </a> </li>
+            <li> <a href="cardapio.html"> Cardapio </a> </li>
+            <li> <a href="equipe.html"> Equipe </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>
+            <li> <a href="login.html" class="botao-login"> Login </a> </li>
+        </ul>
+    </nav>
+    <section class="sobre">
+        <div class="texto">
+            <h1> Sobre nós </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut necessitatibus hic, quae perspiciatis facere veniam laudantium cumque unde distinctio officiis? Explicabo quia eligendi ipsum consequuntur doloribus magnam porro, vitae dicta? </p>
+        </div>
+        <div class="imagem">
+            <img src="fotos/img-sobre.jfif" alt="Sobre nós">
+</body>
+</html>

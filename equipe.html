@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fotos/icon.ico" type="image/x-icon">
+    <title>Equipe</title>
+    <style>
+        body {
+            background-color: rgb(31, 28, 28);
+            justify-content: center;
+            display: flex;
+        }
+
+        nav {
+            background-color: rgba(117, 60, 34, 0.784);
+            padding: 10px 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            right: 5px;
+            top: 0;
+            width: 100%;
+            padding: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: poppins, sans-serif;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        nav a.botao-login {
+            background-color: rgb(195, 155, 136);
+            color: white;
+            padding: 4px 20px;
+            border: 2px solid rgba(255, 255, 255, 0);
+            border-radius: 30px;
+            text-align: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            height: auto;
+        }
+        nav a.botao-login:hover {
+            background-color: white;
+            color: sienna;
+            transition: 200ms;
+        }
+
+        .equipe {
+            background-color: white;
+            width: auto;
+            padding: 40px;
+            display: flex;
+            border-radius: 10px;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin: 80px auto;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .equipe h1 {
+            text-align: left;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            gap: auto;
+        }
+        .foto03 img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .informaçoes {
+            text-align: left;
+        }
+        .informaçoes h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .informaçoes h4 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .botoes {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .botoes button {
+            width: 60px;
+            height: 25px;
+            border-radius: 5px;
+            border: none;
+            background-color: lightgray;
+            cursor: pointer;
+        }
+        .botoes button:hover {
+            background-color: gray;
+            transition: 200ms;
+        }
+        .botoes button.selecionado {
+            background-color: sienna;
+        }
+    </style>
+</head>
+<body>
+        <nav>
+        <ul>
+            <li> <a href="cafe.html"> Home </a> </li>
+            <li> <a href="sobre-nos.html"> Sobre nós </a> </li>
+            <li> <a href="cardapio.html"> Cardapio </a> </li>
+            <li> <a href="equipe.html"> Equipe </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>
+            <li> <a href="login.html" class="botao-login"> Login </a> </li>
+        </ul>
+    </nav>
+    <section class="equipe">
+        <h1>Equipe</h1>
+        <div class="card">
+            <div class="foto03">
+                <img src="fotos/galeria-equipe03.jfif" alt="galeria-equipe03">
+            </div>
+            <div class="informaçoes">
+                <h3>Luna Coelho </h3>
+                <h4>Proprietária e Barista-Chefe</Barista-Chefe></h4>
+                <h4>28 anos</h4>
+                <h4>xxxx</h4>
+                <h4>xxxxxxxx</h4>
+                <h4>xxxxxxxxxxxxxxxx</h4>
+            </div>
+        </div>
+        <div class="botoes">
+            <button class="selecionado"></button>
+            <button></button>
+            <button></button>
+        </div>
+    </section>
+
+</body>
+</html>

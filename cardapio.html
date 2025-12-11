@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fotos/icon.ico" type="image/x-icon">
+    <title>Cardapio</title>
+
+    <style>
+        body {
+            background-color: rgb(31, 28, 28);
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: rgba(117, 60, 34, 0.784);
+            padding: 10px 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            right: 5px;
+            top: 0;
+            width: 100%;
+            padding: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: poppins, sans-serif;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        nav a.botao-login {
+            background-color: rgb(195, 155, 136);
+            color: white;
+            padding: 4px 20px;
+            border: 2px solid rgba(255, 255, 255, 0);
+            border-radius: 30px;
+            text-align: center;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            height: auto;
+        }
+        nav a.botao-login:hover {
+            background-color: white;
+            color: sienna;
+            transition: 200ms;
+        }
+
+        .galeria-cardapio {
+            border-radius: 30px;
+            width: 200px;
+            margin: 20px;
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .galeria-cardapio img {
+            border-radius: 30px;
+            width: 150px;
+        }
+        .cardapio {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            margin: 40px auto;
+            padding: 60px;
+            width: 80%;
+            border-radius: 10px;
+            color: black;
+            margin-top: 100px;
+        }
+        .itens {
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: stretch;
+            gap: 50px;
+            margin: 40px auto;
+        }
+        .linha{
+            background-color: black;
+            height: auto;
+            min-height: 300px;
+            width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="cafe.html"> Home </a> </li>
+            <li> <a href="sobre-nos.html"> Sobre nós </a> </li>
+            <li> <a href="cardapio.html"> Cardapio </a> </li>
+            <li> <a href="equipe.html"> Equipe </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>
+            <li> <a href="login.html" class="botao-login"> Login </a> </li>
+        </ul>
+    </nav>
+    <section class="cardapio">
+        <div class="galeria-cardapio">
+            <img src="fotos/cardapio02.jfif" alt="imagem-cardapio02">
+            <img src="fotos/cardapio03.jfif" alt="imagem-cardapio03">
+            <img src="fotos/cardapio04.jfif" alt="imagem-cardapio04">
+        </div>
+        <h1> Cardapio </h1>
+            <div class="itens">
+                <div class="gelados">
+                    <h2>Bebidas Geladas</h2>
+                    <h4>Frappuccino de Chocolate Branco</h4>
+                    <p>R$ 16,00</p>
+                    <h4>Iced Mocha</h4>
+                    <p>R$ 14,00</p>
+                    <h4>Affogato (sorvete de baunilha com café espresso)</h4>
+                    <p>R$ 12,00</p>
+                    <h4>Soda Italiana</h4>
+                    <p>R$ 10,00</p>
+                    <h4>Matcha</h4>
+                    <p>R$ 13,00</p>
+                </div>
+                <div class="linha"></div>
+                <div class="quentes">
+                    <h2>Bebidas Quentes</h2>
+                    <h4>Expresso</h4>
+                    <p>R$ 8,00</p>
+                    <h4>Cappuccino</h4>
+                    <p>R$ 10,00</p>
+                    <h4>Latte</h4>
+                    <p>R$ 11,00</p>
+                    <h4>Mocha</h4>
+                    <p>R$ 12,00</p>
+                    <h4>Chocolate quente</h4>
+                    <p>R$ 9,00</p>
+                </div>
+                <div class="linha"></div>
+                <div class="doces">
+                    <h2>Doces</h2>
+                    <h4>Bolo de Cenoura com Cobertura de Chocolate</h4>
+                    <p>R$ 15,00</p>
+                    <h4>Cheesecake de Frutas Vermelhas</h4>
+                    <p>R$ 18,00</p>
+                    <h4>Torta de Limão</h4>
+                    <p>R$ 17,00</p>
+                    <h4>Red Velvet</h4>
+                    <p>R$ 9,00</p>
+                    <h4>Brownie com Nozes</h4>
+                    <p>R$ 12,00</p>
+                </div>
+            </div>
+    </section>
+    
+</body>
+</html>

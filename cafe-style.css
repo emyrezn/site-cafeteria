@@ -1,0 +1,86 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(117, 60, 34, 0.784);;
+    padding: 10px 40px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav a.botao-login {
+    background-color: rgb(195, 155, 136);
+    color: white;
+    padding: 4px 20px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    height: auto;
+}
+nav a.botao-login:hover {
+    background-color: white;
+    color: rgb(93, 66, 54);
+    transition: 200ms;
+}
+
+.banner {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #556B2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto-banner {
+    width: 60%;
+    color: white;
+}
+.botao-pedido {
+    background-color: sienna;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #11111100;
+    padding: 40px 0;
+}
+.galeria img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 150ms ease-in-out;
+}
+.galeria img:hover {
+    transform: scale(1.05);
+}
